@@ -1,3 +1,21 @@
+macro_ctrlshiftv: macro_ctrlshiftv{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrlshiftv";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp V>;
+};
+macro_ctrlshifttab: macro_ctrlshifttab{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrlshifttab";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp TAB>;
+};
+macro_ctrltab: macro_ctrltab{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrltab";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp TAB>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
