@@ -2,7 +2,7 @@ macro_ctrlshiftv: macro_ctrlshiftv{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlshiftv";
 #binding-cells = <0>;
-bindings = <&tog >, <&sk LEFT_SHIFT>, <&kp V>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp V>;
 };
 macro_ctrlshifttab: macro_ctrlshifttab{
 compatible = "zmk,behavior-macro";
