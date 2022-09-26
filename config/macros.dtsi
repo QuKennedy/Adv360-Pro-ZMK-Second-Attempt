@@ -1,3 +1,9 @@
+macro_f_plumber: macro_f_plumber{
+compatible = "zmk,behavior-macro";
+label = "macro_f_plumber";
+#binding-cells = <0>;
+bindings = <&kp LC(T)>, <&kp C>, <&kp S>, <&kp SLASH>, <&kp F>, <&kp COLON>, <&kp P>, <&kp L>, <&kp U>, <&kp M>, <&kp B>, <&kp E>, <&kp R>, <&kp SPACE>;
+};
 macro_quote_block: macro_quote_block{
 compatible = "zmk,behavior-macro";
 label = "macro_quote_block";
@@ -14,7 +20,7 @@ macro_ctrlshiftv: macro_ctrlshiftv{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlshiftv";
 #binding-cells = <0>;
-bindings = <&sk LS(LC(V))>;
+bindings = <&kp LS(LC(V))>;
 };
 macro_ctrlshifttab: macro_ctrlshifttab{
 compatible = "zmk,behavior-macro";
